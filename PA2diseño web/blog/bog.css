@@ -1,0 +1,133 @@
+/* Estilos globales y reseteo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #899ecac2;
+    color: #ffffff;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-menu a:hover{
+    color: darkorange;
+}
+.imagen-principal {
+    margin-top: 20px;   
+    width: 100%;
+}
+
+.imagen-principal img {
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+
+}
+
+.articulo-principal {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.titulo-articulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meta-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.autor-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.autor-info p {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 0.9rem;
+}
+
+.seccion-cafe {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icono-cafe {
+    width: 200px;
+    height: 300px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+.iconos-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.iconos-sociales img {
+    width: 30px;
+    height: 30px;
+}

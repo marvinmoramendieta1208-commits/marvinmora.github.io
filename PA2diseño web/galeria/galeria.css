@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #899ecac2;
+    color: #ffffff;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-menu a:hover{
+    color: darkorange;
+}
+
+.contenedor-imagenes {
+    max-width: 1200px;
+    margin: 50px auto; 
+    padding: 20 30px; 
+    
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: flex-start; 
+}
+h3{color: #f8ed57;
+
+}
+
+.imagen-miniatura {
+    width: calc(33.333% - 13.333px); 
+    
+    text-align: center;
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+}
+
+.imagen-miniatura a {
+    display: block;
+    height: 200px; 
+    overflow: hidden; 
+
+}
+
+.imagen-miniatura img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+}
+
+
+.imagen-miniatura p {
+    padding: 8px 0;
+    margin: 0;
+    font-size: 0.9em;
+    color: #333;
+    background-color: #f8ed57;
+}
+
+.contenedor-imagenes h3 {
+    width: 100%; 
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left; 
+}
+
+.imagen-miniatura:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
